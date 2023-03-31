@@ -1,0 +1,30 @@
+.story {
+    background-color: #130e27;
+}
+.story__inner {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.story__text {
+    color: #fff;
+    max-width: 630px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+.story__button{
+    text-transform: uppercase;
+    padding: 20px 65px;
+    background-color: #c62314;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Montserrat";
+}

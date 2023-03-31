@@ -1,0 +1,36 @@
+@font-face {
+    font-family: PT Serif;
+    src: url(../fonts/PTSerif-Regular.ttf)
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.footer{
+    background-color: #130e27;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 88px;
+}
+.footer__rights{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "PT Serif";
+}
+.footer__rights::after{
+    content: " DesignCoon";
+    color: red;
+}
+.footer__inner .logo {
+    font-size: 64px;
+    color: #c62314;
+    font-family: "Quite Chocolatey";
+}
